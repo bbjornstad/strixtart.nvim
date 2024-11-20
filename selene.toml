@@ -1,0 +1,8 @@
+std = "lua51+.selene-schema+selene-strix"
+
+[lints]
+mixed_table = "allow"
+incorrect_standard_library_use = "allow"
+different_requires = "allow"
+unused_variable = "allow"
+global_usage = "allow"

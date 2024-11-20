@@ -5,3 +5,9 @@ nvim
 
 spell/
 lazy-lock.json
+.aider*
+.env
+.zed
+aiderout
+aidercurrent
+usage_data.json
