@@ -1,0 +1,25 @@
+local quill = require("util.quill")
+
+return quill({
+  LEADER = "<leader>s",
+  register = '"',
+  autocmd = "a",
+  buffer = "b",
+  command = "C",
+  command_history = "c",
+  diagnostics = { document = "d", workspace = "D" },
+  grep = { cwd = "G", root = "g" },
+  highlight = "H",
+  help = "h",
+  keymap = "k",
+  mark = "m",
+  man = "M",
+  option = "o",
+  replace = { spectre = "rp", others = "rp" },
+  resume = "R",
+  symbol = { workspace = "Y", document = "y" },
+  spelling = "s",
+  todo = { todofixme = "T", todo = "T" },
+  word = { cwd = "W", root = "w" },
+  noice = "n",
+})
