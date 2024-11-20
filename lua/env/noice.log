@@ -1,0 +1,1 @@
+{ "msg_showcmd", "sl:1", "tick:5", false, { { 0, "^[" } } }
